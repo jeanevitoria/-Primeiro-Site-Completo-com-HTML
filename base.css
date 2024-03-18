@@ -1,0 +1,145 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+.header {
+    max-height: 100%;
+    position: relative;
+    background-color: #DEDEDF;
+    margin: 0;
+    padding: 0;
+  }
+.header img {
+    max-height: 150px;
+    transform: scaleX(-1);
+    float: left;
+    margin: 0;
+    padding: 0;
+    opacity: 0.8;
+  }
+
+#text-overlay {
+    align-items: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 60px;
+    left: 400px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align:center;
+    background-color: rgba(34, 9, 9, 0.8);
+    padding: 0px;
+  }
+
+.menu {
+    width: 15%;
+    background-color: #B85D5D;
+    padding: 100px 20px 0px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0%;
+    text-align: center;
+    text-decoration:wavy;
+}
+
+.content {
+    position: relative;
+    background-color: white;
+    text-align:justify;
+    height: 500px;
+    align-content: center;
+    display:table-column;
+    padding: 3%;
+}
+.footer {
+    background-color: #F1EFEF;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  hr{
+      padding: 0;
+      margin: 0;
+  }
+
+.content table {
+  border-collapse:collapse;
+  border-spacing: 3px;
+  border-style: thchildren(even);
+  color: #ffffff;
+  background-color:  #ffffff;
+  width: 400px;
+  height: 200px;
+  margin-left: 30%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.content table tr:nth-child(even) {
+    background-color: #444444;
+  }
+
+.content table th {
+    background-color: #3a1515;
+    color: rgb(255, 255, 255);
+}
+.content table tr {
+    background-color: #915555;
+}
+#endereco {
+    position: absolute;
+    display: grid;
+    justify-content:left;
+    max-width: 150px;
+    padding-left: 5%;
+
+}
+#form {
+    position: absolute;
+    display:inline-table;
+    height: 50%;
+    max-width: 50%;
+    justify-content:center;
+    box-sizing: border-box;
+    padding-left: 1%;
+    margin-left: 400px;
+}
+
+#mensagem {
+    resize: none;
+    height: 200px;
+    width: 100%;
+}
+
+#form input {
+    width: 100%;
+    padding: 0%;
+}
